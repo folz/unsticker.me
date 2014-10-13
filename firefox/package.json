@@ -5,5 +5,6 @@
   "description": "Hide Facebook sticker comments",
   "author": "Rodney Folz",
   "license": "MPL 2.0",
-  "version": "0.1"
+  "version": "1.0",
+  "icon": "data/logo-48.png"
 }
