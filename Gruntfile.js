@@ -17,8 +17,8 @@ module.exports = function (grunt) {
 
   // Configurable paths
   var config = {
-    app: 'app',
-    dist: 'dist'
+    app: 'chrome',
+    dist: 'chrome_dist'
   };
 
   grunt.initConfig({
