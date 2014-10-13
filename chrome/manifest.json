@@ -4,14 +4,15 @@
   "manifest_version": 2,
   "description": "__MSG_appDescription__",
   "icons": {
-    "16": "images/icon-16.png",
-    "128": "images/icon-128.png"
+    "16": "images/logo-16.png",
+    "32": "images/logo-32.png",
+    "48": "images/logo-48.png",
+    "128": "images/logo-128.png"
   },
   "default_locale": "en",
   "background": {
     "scripts": [
-      "scripts/chromereload.js",
-      "scripts/background.js"
+      "scripts/chromereload.js"
     ]
   },
   "content_scripts": [
@@ -24,9 +25,6 @@
       ],
       "css": [
         "styles/contentstyles.css"
-      ],
-      "js": [
-        "scripts/contentscript.js"
       ],
       "run_at": "document_end",
       "all_frames": false
