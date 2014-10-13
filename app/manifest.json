@@ -17,8 +17,13 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "http://facebook.com/*",
+        "http://*.facebook.com/*",
+        "https://facebook.com/*",
+        "https://*.facebook.com/*"
+      ],
+      "css": [
+        "styles/contentstyles.css"
       ],
       "js": [
         "scripts/contentscript.js"
