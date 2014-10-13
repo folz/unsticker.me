@@ -320,7 +320,7 @@ module.exports = function (grunt) {
       dist: {
         options: {
           archive: function() {
-            var manifest = grunt.file.readJSON('app/manifest.json');
+            var manifest = grunt.file.readJSON('chrome/manifest.json');
             return 'package/unstickerme-' + manifest.version + '.zip';
           }
         },
