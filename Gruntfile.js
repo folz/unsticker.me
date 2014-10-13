@@ -326,7 +326,7 @@ module.exports = function (grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'dist/',
+          cwd: 'chrome_dist/',
           src: ['**'],
           dest: ''
         }]
