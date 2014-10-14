@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unsticker.me Options</title>
+    <style>
+      * { margin: 0 auto; padding: 0; text-align: center; font: 20px/1.5 Helvetica Neue, Arial, sans-serif;  color: #333; }
+      h2 { margin-top: 50px; font-size: 50px; font-weight: 100; }
+      td { text-align: left; }
+      span { padding-left: 10px; }
+      #save { width: 240px; margin: 10px 0; padding: 7px 0; line-height: 20px; border: 0 none; border-radius: 2px; font-size: 12px; font-weight: bold; text-transform: none; background-color: #999; color: #fff; cursor: pointer; transition: background 0.3s ease 0s; -moz-transition: background 0.3s ease 0s; -ms-transition: background 0.3s ease 0s; -webkit-transition: background 0.3s ease 0s; }
+      #save:hover { background-color: #444; }
+      #status { opacity: 0; transition: opacity 0.75s ease 0s; -moz-transition: opacity 0.75s ease 0s; -ms-transition: opacity 0.75s ease 0s; -webkit-transition: opacity 0.75s ease 0s;}
+    </style>
+  </head>
+  <body>
+    <h2>Remove Facebook Stickers on:</h2>
+    <table id="settings">
+      <tr>
+        <td><input type="checkbox" id="posts"></td>
+        <td><span>Posts and Comments</span></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="messages"></td>
+        <td><span>Messages</span></td>
+      </tr>
+    </table>
+    <div id="update">
+      <button id="save">Save</button>
+      <div id="status">Options Saved</div>
+    </div>
+    <script src="scripts/options.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.UFIImageBlockContent .UFICommentContent > div:empty {
+    background-image: none !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.UFIImageBlockContent .UFICommentContent > div:empty::after {
+    content: "[sticker]";
+}
