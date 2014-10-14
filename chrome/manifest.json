@@ -15,6 +15,15 @@
             "scripts/chromereload.js"
         ]
     },
+    "options_page": "options.html",
+    "permissions": [
+      "tabs",
+      "storage"
+    ],
+    "web_accessible_resources": [
+      "styles/contentstyles-messages.css",
+      "styles/contentstyles-posts.css"
+    ],
     "content_scripts": [
         {
             "matches": [
@@ -23,8 +32,8 @@
                 "https://facebook.com/*",
                 "https://*.facebook.com/*"
             ],
-            "css": [
-                "styles/contentstyles.css"
+            "js": [
+                "scripts/inject.js"
             ],
             "run_at": "document_end",
             "all_frames": false
